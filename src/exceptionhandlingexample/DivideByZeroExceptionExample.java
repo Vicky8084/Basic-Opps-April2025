@@ -6,7 +6,7 @@ public class DivideByZeroExceptionExample {
         try{
             rslt=a/b;
         }
-        catch (Exception e){
+        catch (ArithmeticException e){
             System.out.println("Exception Occurred :- "+e.getMessage());
         }
 
